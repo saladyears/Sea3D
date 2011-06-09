@@ -1,0 +1,102 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\Sea3D.chm
+Default Window=mainwindow
+Default topic=html\index.html
+Display compile progress=No
+Language=0x409 English (United States)
+Title=Sea3D Help System
+
+[WINDOWS]
+mainwindow="Sea3D Help System",,,"html\index.html","html\index.html",,,,,0x42020,,0x205c,,,,,,,,0
+main="Sea3D Main Window Help",,,"html\main.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+gl="Main OpenGL Window Help",,,"html\gl.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+variants="Variants Help",,,"html\variants.html","html\index.html",,,,,0x40020,,0x205c,[0,0,400,400],,,,,,,0
+connect="Connect To a Network Game Help",,,"html\connect.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+gametype="Game Type Help",,,"html\gametype.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+host="Host a Network Game Help",,,"html\host.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+mapsel="Select a Map Help",,,"html\mapsel.html","html\index.html",,,,,0x40020,,0x103c,,,,,,,,0
+netport="Network Port Help",,,"html\netport.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+network="Network Connection Help",,,"html\network.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+playsel="Player Selection Help",,,"html\playsel.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+chat="Chat Help",,,"html\chat.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+startsel="Starting Position Help",,,"html\startsel.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+gameplay="Gameplay and Control Panel Help",,,"html\gameplay.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+opengame="Select a game to open Help",,,"html\opengame.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+dbplayers="Player Database Help",,,"html\dbplayers.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+addplayer="Add a player Help",,,"html\addplayer.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+dbgames="Game Database Help",,,"html\dbgames.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+dbmaps="Maps Database Help",,,"html\dbmaps.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+genset="General Settings Help",,,"html\genset.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+glset="OpenGL Settings Help",,,"html\glset.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+playdisp="Player Display Help",,,"html\playdisp.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+history="Game History Help",,,"html\history.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+stats="Game Statistics Help",,,"html\stats.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+sysmess="System Messages Help",,,"html\sysmess.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+legend="Legend Help",,,"html\legend.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+about="About Help",,,"html\about.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+lose7="Lose cards on a 7 Help",,,"html\lose7.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+steal="Steal a card Help",,,"html\steal.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+playcard="Play a Development Card Help",,,"html\playcard.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+trade="Trade Help",,,"html\trade.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+nettrade="Network Trade Help",,,"html\nettrade.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+tradeoffer="Trade Offer Help",,,"html\tradeoffer.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+tradebank="Trade with the bank Help",,,"html\tradebank.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+splash="Splash Screen Help",,,"html\splash.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+connector="Sea3D ConnectorHelp",,,"html\connector.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+consetup="Connector Setup Help",,,"html\consetup.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+conpassword="Player Download Password Help",,,"html\conpassword.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+condownload="Download a Player Help",,,"html\condownload.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+conregister="Register a Player Help",,,"html\conregister.html","html\index.html",,,,,0x40020,,0x205c,,,,,,,,0
+
+[FILES]
+html\about.html
+html\addplayer.html
+html\chat.html
+html\condownload.html
+html\connect.html
+html\connector.html
+html\conpassword.html
+html\conregister.html
+html\consetup.html
+html\dbgames.html
+html\dbmaps.html
+html\dbplayers.html
+html\features.html
+html\gameplay.html
+html\gametype.html
+html\genset.html
+html\gl.html
+html\glset.html
+html\history.html
+html\host.html
+html\index.html
+html\index2.html
+html\keyboard.html
+html\legend.html
+html\lose7.html
+html\main.html
+html\mapinfo.html
+html\mapsel.html
+html\netport.html
+html\nettrade.html
+html\network.html
+html\opengame.html
+html\playbank.html
+html\playcard.html
+html\playdisp.html
+html\playsel.html
+html\splash.html
+html\startsel.html
+html\stats.html
+html\steal.html
+html\sysmess.html
+html\trade.html
+html\tradebank.html
+html\tradeoffer.html
+html\variants.html
+html\problems.html
+html\help.css
+
+[INFOTYPES]
+

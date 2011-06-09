@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE>OpenGL Settings Help</TITLE>
+<link rel="stylesheet" type="text/css" href="help.css">
+</HEAD>
+<BODY>
+<H1>OpenGL Settings</H1>
+<img src=graphics\glset.jpg>
+<P>
+This window allows you to fine-tune the settings of the OpenGL window to improve (or worsen) the way your Sea3D game looks.  None of these settings affect game play in any way, just the way the game looks.
+<P>
+NOTE: Any changes you make in this window take immediate effect in the <A HREF="gl.html">main OpenGL window</A>.
+<H2><B>Enable mipmapping</B></H2>
+Mipmapping is a graphics technique to make textures look better as the objects they are applied to get smaller and smaller.  This has a profound affect on the way board tiles look the farther away from you they are.  Turning mipmapping on smooths out textures that are far away from you at the cost of more memory being used.
+
+<H2><B>Graphics Detail</B></H2>
+The graphics detail slider allows you to set the detail level of the OpenGL window.  Higher detail means better quality but slower drawing rates while lower detail means worse quality but faster drawing rates.  The text below the slider tells you exactly which detail settings are on and off for each of the slider positions.
+
+<H2><B>Highlight selectable objects</B></H2>
+Turning this option on tells Sea3D to highlight every selectable object that you put the mouse over with the color in the colorbox that you specify.  Selectable objects are things like the settlement placement circles, the road placement lines, settlements you are replacing with a city, or tiles you might put the robber on.  Basically, any time you have the possibility of clicking in the map to select something, Sea3D will highlight what you are about to select as a feedback mechanism to you.  Turning this on might slow down your performance a little.
+
+<H2><B>Outline the white player</B></H2>
+Sometimes the white player is a little difficult to see, especially their pesky roads, and the sly white players know this, trying to gain every advantage they can.  You can fight back with this option.  By selecting it, you can specify an outline color that goes around every one of the white player's dingy objects, making it stand out like a man on fire.  Which reminds me of a wise saying... "Give a man a fire, and you keep him warm for the night.  Set the man on fire, and you keep him warm for the rest of his life."
+
+<H2><B>Longest Road outline</B></H2>
+This color controls how the Longest Road in the game is made to stand out from the other roads.  Use it to set the outline color to whatever suits your fancy.
+
+<H2><B>Draw 3D robber in wireframe</B></H2>
+This is a purely aesthetic choice.  If you turn this option on, the robber draws in wireframe, otherwise it is drawn solidly with shading.
+
+<H2><B>Gouraud shade the robber</B></H2>
+Gouraud shading is a fancy way of saying, "make the robber look smooth".  If you turn this on, the robber will be smooth-shaded.  If this is off, each face of the robber will have flat shading.  Try it out to see the difference.
+<P>
+For those of you computer graphic nerds, flat shading is done by finding the lighting normal for each face of the object, which is the cross-product of two of the vectors that define that face.  Gouraud shading takes this a step farther by then averaging the normals of the four faces that surround any given vertex to determine a normal for that vertex.  OpenGL then calculates the shade color at each vertex and interpolates between them.  There is an even more accurate lighting model called Phong shading which actually interpolates the normals between vertexes for every point on the model, which produces wonderful shading but is very expensive (and not implemented in OpenGL).
+
+<H2><B>Draw Seafarers port tiles</B></H2>
+This is another purely aesthetic choice.  In Seafarers maps, you can choose to display the ports as either the 3D port pieces from the Seafarers game, or, if you prefer, you can have them displayed as the port hexagons from the original maps.  Note that if you turn this off (thus using the original port hexes), you cannot have the Seafarers borders on, and that option will be automatically turned off for you.
+
+<H2><B>Draw Seafarers borders</B></H2>
+This option is only available if you have downloaded the Seafarers borders add-on from the <a href="http://www.s3dconnector.net" target="_blank">S3D Connector</a> site.  With this option on, Seafarers maps will be displayed with the smooth-edged border pieces that came with the expansion.  With this off, the border pieces will be regular ocean tiles.  Note that the Seafarers borders cost a lot of graphics memory, so your display may slow down if you turn them on.
+
+<H2><B>Do not load Seafarers borders</B></H2>
+If you have the Seafarers borders, but are not using them, you will want to turn this option on.  Otherwise, Sea3D will continue to load the border tiles every time you start a game, which takes several extra seconds.  By keeping this option on, you speed up your map load times.  When you toggle this option on and off in this window, you are actually forcing Sea3D to dump or load the border textures from or into its graphics memory so you may notice a pause after each toggle.
+</BODY>
+</HTML>

@@ -1,0 +1,520 @@
+Sea3D version history
+
+1.1.9 - bug fix: 831900	Longest road files when building a settlement
+		bug fix: 832382	Counteroffers can offer more cards than the player has
+		bug fix: 851693	Update define.h to 1.1.9
+1.1.8 - bug fix: 825541	Users can play with other ladder names that are not theirs
+		bug fix: 825560	Update define.h to 1.1.8
+1.1.7 - feature: 822817	Give users the option to use smaller tile textures
+		feature: 822982	Add correct recording of player IP addresses
+		feature: 822985	If there's only one player, select it
+		feature: 823017	Add support for team games
+		feature: 823597	Add a Ready button for clients
+		bug fix: 822781	Memory is not reclaimed
+		bug fix: 822874	Screen "flashes" when playig a Year of Plenty card
+		bug fix: 822897	Soldier number does not rever to white when losing LA
+		bug fix: 822911	Sometimes, the wrong player gets recorded as the winner
+		bug fix: 822923	The robber may not be placed on the desert
+		bug fix: 823648 Update define.h to 1.1.7
+1.1.6 - feature: 795420	Save the stats window size
+		feature: 795422	Allow trades to go to players with zero cards
+		feature: 809489	Add recording of drops and quits
+		feature: 815081	Allow players to see a report on the other players
+		bug fix: 812647	A player can join the same game with another instance
+		bug fix: 812664	The Only show roll chips after placement variant is broken
+		bug fix: 812683	Counteroffering, then not changing and accepting shows blank
+		bug fix: 814585	Game history gives away stolen cards
+		bug fix: 815094	Update define.h to 1.1.6
+1.1.5 - feature: 791361	Allow embedded chat window to stretch N-S
+		feature: 791358	Add option to turn off the splash screen
+		feature: 790800	Allow rejoining of games without quitting them first
+		feature: 790751	Automatically select first player in steal, lose 7, gold box
+		feature: 783002	Update help system to synch with Sea3D
+		bug fix: 788260	Sometimes splash screen text is unreadable
+		bug fix: 788313	Tournament Rules variant gets reset when a player joins
+		bug fix: 790598	Floating chat window does not appear when connecting to game
+		bug fix: 790612	Toolbar state is not remembered
+		bug fix: 790624	It's possible to accidentally play cards using the spacebar
+		bug fix: 790742	Goods are sometimes displayed on a 7 roll
+		bug fix: 794874	Update define.h to 1.1.5
+1.1.4 - feature: 775845	Send all keyboard input to the chat window
+		feature: 776964	Abstract the button animation for future development
+		feature: 776966	Split the control panel into hidable buttons
+		feature: 779749	Embed the chat window into the main window
+		feature: 781098	Tell the victim what card was stolen from them
+		feature: 781641	Play a sound when a new game shows in the Connector
+		bug fix: 781070	Allowed cards variant does not work in hotseat mode
+		bug fix: 781661	Update define to 1.1.4
+1.1.3 - feature: 765518	Add Tournament start rules
+		feature: 775650	Add the ability to repost ladder games
+		feature: 775769	Add a variant to disallow trading completely
+		feature: 775801	Add variant to allow any number of rounds with no sevens
+		feature: 775874	Add variant to set limit on trade offers per turn
+		feature: 776316	Let users select a color for the longest road outline
+		bug fix: 773894	Oceans IV volcano/jungle number is off by one
+		bug fix: 773897	Moving a ship w/ a longest road of 5 does not lose longest
+		bug fix: 773901	When stealing, the actual card is named in the chat window.
+		bug fix: 773934	Auto-trade sometimes fails
+		bug fix: 775024	Game crashes intermittently after quitting and starting
+		bug fix: 775052	Some counteroffer resources are still disabled
+		bug fix: 775080	Players lose longest road when a volcano destroys them
+		bug fix: 775667	Opened games from the database have no borders sometimes
+		bug fix: 775691	With Trade after Build, ports should work immediately
+		bug fix: 776478	Update define.h to 1.1.3
+1.1.2 - feature: 764920	Hide Connector code in CVS
+		feature: 765332	Add text letting players know it's a ladder game
+		feature: 765391	Add a customizable outline color around the white player
+		feature: 765435	Auto-select first playable development card
+		bug fix: 759820	In Oceans IV the hidden desert is not a volcano
+		bug fix: 759824	Players cannot undo ship movement in network games
+		bug fix: 763455	Sliding the OpenGL slider back and forth causes crash/lockup
+		bug fix: 763859	Moving a ship causes weird things with longest road
+		bug fix: 763922	Chitless swaps don't get a refresh for other players
+		bug fix: 763937	The ladder list doesn't go to the right game
+		bug fix: 764011	It's still possible to accidentally accept and go negative
+		bug fix: 764060	Some colors are hard to see on low-contrast monitors
+		bug fix: 764105	Counteroffers don't work sometimes
+		bug fix: 764157	With Jungles/Volcanoes on, no extra point past them in maps
+		bug fix: 764597	Creating a circle of ships means you can't move any of them
+		bug fix: 764635	Sorting does not retain the selection
+		bug fix: 765521	Update define.h to 1.1.2
+1.1.1 - feature: 728104	Show players in game in the connector
+		feature: 738935	Add configurable limit for players allowed
+		feature: 757285	Add IP checking to ladder games
+		feature: 758013	Ensure that the winner is correct in ladder games
+		feature: 759791	Add the ability to ban players
+		feature: 759803	Disable variants in the dialog for ladder games
+		bug fix: 758113 Ships show up during the robber placement after first roll
+		bug fix: 758137	ASSERT constantly called when players disconnect
+		bug fix: 758235	In certain instances, gold gets really messed up
+		bug fix: 759258	Connector does not check for name length when registering
+		bug fix: 759812	The pirate placement is not sent when reloading save games
+		bug fix: 759826	Reload games show the wrong host name in the connector
+		bug fix: 759844	Players can use harbors on the turn they build them.
+		bug fix: 759914	It's possible to play with fewer people in the ladder than 3
+		bug fix: 759915	Update define.h to 1.1.1
+1.1.0 - feature: 740691	Add the ladder ranking system to Sea3D
+		feature: 746102	Spruce up the Connector with bitmaps
+		bug fix: 755519	Chitless tiles aren't revealed properly in Greater Catan
+		bug fix: 756663	Update define.h to 1.1.0
+1.0.9 - feature: 727488 Add special build phase in 5-6 player games
+		feature: 739922 Add harbors for European tiles 
+		bug fix: 738793 Mainland chitless tiles are still being replaced
+		bug fix: 740083 The volcano gold is flaky
+		bug fix: 740087 Volcanoes can end up with two red rolls next to each other
+		bug fix: 740091 Update define.h to 1.0.9
+		bug fix: 740448 A 7 roll as the first roll in network can cause problems 
+1.0.8 - feature: 729029	Add restarts to the Connector
+		feature: 729031	Add jungle rules
+		feature: 729032	Add volcano rules
+		bug fix: 732657	7's aren't being tracked correctly in the stats page
+		bug fix: 737072	Improve the sounds
+		bug fix: 738410	Update define.h to 1.0.8
+1.0.7 - feature: 727486 Allow chatting while the trade dialog is open
+		feature: 727495 Store the port forwarding IP address and port
+		feature: 727498 Turn seaborders into an optional component
+		feature: 727499 Allow seaports to be drawn with basic sea tiles 
+		bug fix: 727464 Build options show when cancelling playing a card pre-turn
+		bug fix: 727617 Update define.h to 1.0.7 
+1.0.6 -	feature: 720309 Add the ability to specify a different IP and port
+		feature: 720720 Add dev cards to the bank area
+		feature: 721164 Add sanity check for the Connector
+		feature: 721169 Add IP and port to the connector list  
+		bug fix: 721318 Ship placements don't work sometimes
+		bug fix: 721335 Not all Connector games get removed from the database
+		bug fix: 721353 Update define.h to 1.0.6 
+1.0.5 - feature: 716763 Add Connector technology 
+		bug fix: 716757 Into Desert maps give extra points on desert tiles
+		bug fix: 717551 The splash screen says S3D
+		bug fix: 717554 The application says S3D instead of Sea3D
+		bug fix: 718259 The rotating cube of fame needs to be updated
+		bug fix: 719247 In 6 player network games, the 6th player gets no offers
+		bug fix: 719293 Update define.h to 1.0.5 
+1.0.4 - feature: 711707 Add Seafarers: Five Islands (V) to the map database
+		feature: 711851 Add Seafarers: Six Islands (VI) to the map database
+		feature: 712205 Add Seafarers: Oceans (V) to the map database
+		feature: 712206 Add Seafarers: Oceans (VI) to the map database
+		feature: 712207 Add Seafarers: Into The Desert (V) to the map database
+		feature: 712209 Add Seafarers: Into The Desert (VI) to the map database
+		feature: 712210 Add Seafarers: A New World (V) to the map database
+		feature: 712211 Add Seafarers: A New World (VI) to the map database
+		feature: 712985 Add Seafarers: Greater Catan (IV) to the map database
+		feature: 713644 Add Seafarers: Greater Catan (VI) to the map database
+		feature: 714099 Add Seafarers: The Great Crossing (IV) to the map database
+		feature: 714894 Give the users the ability to not load Seafarers borders
+		feature: 715004 Add Seafarers: The Great Crossing (VI) to the map database 
+		bug fix: 714914 The version check is messed up between S3D 1.0.0 and Sea3D
+		bug fix: 715010 The extra point chit is not to scale.
+		bug fix: 715447 A user can click to continue before getting gold
+		bug fix: 715448 Update define.h to 1.0.4
+		bug fix: 715518 Ports do not actually work in New World maps 
+1.0.3 - feature: 683998 Add the ability to see what variants are turned on
+		feature: 706483 Add new stat types for gold and discovery
+		feature: 709809 Add Seafarers: Into The Desert (III) to the map database
+		feature: 710191 Add Seafarers: Into The Desert (IV) to the map database
+		feature: 711033 Add Seafarers: A New World (III) to the map database
+		feature: 711535 Add Seafarers: A New World (IV) to the map database 
+		bug fix: 709451 The 9 should be an 8 in Oceans IV
+		bug fix: 709541 Pressing Enter in a popup dialog does not turn off the check
+		bug fix: 711031 You can see what others' dev cards are in hotseat
+		bug fix: 711452 Game crashes in Oceans map in network
+		bug fix: 711542 It's possible to try to move a ship and get stuck
+		bug fix: 711551 If you move a ship, you can't build a new ship where it was
+		bug fix: 711585 Update define.h to 1.0.3 
+1.0.2 - feature: 689063 Add a pause after ending the turn in hotseat mode
+		feature: 689092 Add Auto-Roll Feature for Hotseat games
+		feature: 704166 Add Seafarers: Four Islands (III) to the map database
+		feature: 705122 Adjust robber/pirate placement
+		feature: 705811 Add Seafarers: Four Islands (IV) to the map database
+		feature: 705888 Add Seafarers: Oceans (III) to the map database
+		feature: 706484 Add Seafarers: Oceans (IV) to the map database 
+		bug fix: 705002 A settlement must exist btwn road and ship for longest road
+		bug fix: 705008 In hotseat, it's possible to not know what to get with gold
+		bug fix: 705012 New Shores map is sometimes covered by player buttons
+		bug fix: 705870 Gold receiving is horked in network mode
+		bug fix: 705872 Ships are missing from the legend window
+		bug fix: 705873 The pirate sound sucks 
+		bug fix: 707723 Update define.h to 1.0.2 
+1.0.1 - feature: 685382 Add Seafarers map New Shores
+
+S3D version history
+
+1.0.0 - bug fix: 690663 It's possible to unwittingly accept a trade and go negative
+		bug fix: 692537 The help system is out of date..
+		bug fix: 704998 Cutting a road off does not reset the road length text 
+0.9.9b- bug fix: 701253 Bank resource picture does not reappear
+		bug fix: 701254 Multiple people losing cards on a 7 can cause hangups
+		bug fix: 702548 Cancelling from lose on 7 in hotseat does not undo the roll
+		bug fix: 703772 Update define.h to 0.9.9b 
+0.9.9a- feature: 696825 Spruce up the object bitmaps in the GUI 
+		bug fix: 625935 Longest road in network games
+		bug fix: 690663 It's possible to unwittingly accept a trade and go negative
+		bug fix: 690668 Clicking the Legend window causes it to go black
+		bug fix: 690739 Far clipping plane seems to be set too short
+		bug fix: 690822 Pressing Ctrl+R during board setup causes a roll to be made
+		bug fix: 692267 Sheep port mipmapping doesn't work initially
+		bug fix: 692539 There are some help messages with lousy titles
+		bug fix: 695095 Sorting in the player and game buttons isn't quite right 
+		bug fix: 697337 Update define.h to 0.9.9a
+0.9.9 - feature: 690059 Give S3D a better icon 
+		bug fix: 688709 Choosing a primary language causes a crash
+		bug fix: 689272 Deleting the last player allows you to crash the game
+		bug fix: 689307 Add disclaimer information to each file
+		bug fix: 690063 Update define.h to 0.9.9 
+0.9.8 - feature: 681823 Add a splitter to the chat window
+		feature: 682560 Integrate the game help system to the new online help system 
+		bug fix: 681978 Clean up all of the #define values
+		bug fix: 683077 Update define.h to 0.9.8
+		bug fix: 683982 Highlighting kills the processor performance 
+		bug fix: 684932 Adding a player with hidden players displays incorrectly
+		bug fix: 684936 The highlighting CPU fix causes extreme problems...
+0.9.7 - bug fix: 677784 Game crashes when clicking on quick-jump stats list 
+		bug fix: 677786 Changing the port before loading a saved game breaks things 
+		bug fix: 678200 Chat window loses focus when game events happen 
+		bug fix: 678376 Highlighting does not turn on in second placement in network 
+		bug fix: 678379 Remove FPS tracking in Debug mode 
+		bug fix: 678399 Update define.h to 0.9.7 
+0.9.6 - bug fix: boards were always the same
+0.9.5 - feature: moved .tex files into their own directory
+		feature: removed multiple versions of the tile textures
+		bug fix: client rolling was never seeded (Dave Wiley)
+		bug fix: other player's undo became enabled during gameplay (GTLemonade)
+		bug fix: help system check had been deleted (Justin Kelson13)
+0.9.4 - feature: splash screen
+		feature: dynamic switching between Euro tiles and large fonts! (goober99)
+		feature: amounts under resources shown when losing on a 7 (goober99)
+		feature: updated help system
+		feature: OpenGL highlighting on mouseover
+		feature: show all users road lengths at all times (Travis G)
+		feature: undo immediate bank trades in net mode (swanker)
+		feature: configurable timeout on network auto-reject trades (Dave Wiley)
+		feature: in-game disclaimer
+		feature: changed text in steal card window to make it clear what's happening (Dave Wiley)
+		feature: scaled all points in games to 10. to give better player stats
+		feature: added leading zeroes in player database to sort stats better
+		bug fix: serious inefficiencies in drawing code
+		bug fix: sometimes couldn't click road lines
+		bug fix: cleanup of lose 7 logic in network mode (Geir O)
+		bug fix: build options failed to show when cancelling play card (Geir O.)
+		bug fix: build options failed to show when cancelling trade w/ bank
+		bug fix: hotseat cancel robber and continue bug (Geir O.)
+		bug fix: hotseat show cards in steal dialog was messed up
+0.9.3 - feature: tweaked player information buttons
+		feature: added European cards, moved checkbox to general settings (S2K)
+		feature: integrated help system!
+		feature: toolbars! (Justin Maynard)
+		feature: animated auto-hide player buttons!
+		feature: initial tour!
+		feature: added ability to save and clear default camera settings
+		feature: turned legend button into popup window
+		feature: winning player's points total is now red
+		feature: variant that shows all player's cards at all times (Gus German)
+		feature: auto-roll on your network turn in general settings (Joel Eddy)
+		feature: variant to round cards lost up instead of down (Geir O.)
+		feature: OpenGL screenshots in game (Geir O.)
+		feature: text describing stolen resources on monopoly cards (Geir O.)
+		feature: variant to hide the roll chips until after initial placements (Aalt Tulleken)
+		bug fix: 6 players with large fonts can now be fully seen at 1024x768 res (Twan Capellen)
+		bug fix: in tracking mode, double-clicking in blank sort buttons had issues
+		bug fix: in tracking mode, cancelling the sort dialog after finishing, and then going back to it, allowed you to continue without making changes
+		bug fix: somehow, someone could end the turn twice, skipping the next player's turn (Geir O.)
+		bug fix: fixed far clipping plane problem in 4 player maps
+		bug fix: resized game database (Geir O.)
+0.9.2 - feature: AI rudiments
+		feature: 3D rotating cube about box
+		feature: split BASS.DLL code out so it's not required
+		feature: double-click right mouse button to reset view (David Wiley)
+		feature: upgraded the build pictures with 3D pics
+		feature: maximized state and chat window size/location are in .INI file (David Wiley)
+		feature: changed player selection in multiuse dialog to list control
+		feature: changed player selection in trade dialog to list control
+		feature: revamped legend button and made it work in large fonts (David Wiley)
+		feature: revamped bank buttons to make them work in large fonts
+		feature: keyboard shortcuts
+		feature: highlighting of the player who's turn it is (Justin Maynard)
+		feature: added amount of cards needed to lose to multiuse dialog
+		bug fix: couldn't play dev cards after rolling a 7 (Joseph Childers)
+		bug fix: last received cards showed in goods window on a 7 (Geir Oterkjaer)
+		bug fix: points box wasn't wide enough for >10 points
+		bug fix: removed Windows menu from in-game
+		bug fix: removed status bar from game
+		bug fix: trading was allowed after building in hotseat regardless of variants
+		bug fix: auto-trade allowed trades for cards the bank had run out of (Joseph Childers)
+		bug fix: adding a player not from the database caused problems when selecting players for the game (Joseph Childers)
+0.9.1 - feature: TCP/IP address in server dialog is now copyable
+		feature: European tile set
+		feature: new logic to road pictures to increase tension
+		feature: added last host setting to .INI file
+		feature: can paste TCP/IP address into client window
+		bug fix: stopped flickering info buttons when clicked on
+		bug fix: dev card picture in other player's hand in network mode was incorrect
+		bug fix: pasting text into the chat window caused all future text to disappear
+		bug fix: build options showed up in network mode after using the general settings menu
+		bug fix: crash where chat window would "flash" many times
+0.9.0 - feature: dynamic lighting!
+		feature: gouraud shading on the robber
+		feature: redesigned play dev card dialog for network/hotseat, with pictures
+		feature: added large fonts for the player buttons
+		bug fix: "nothing" was appearing in network trade text
+		bug fix: had to click twice after rotating to do anything
+		bug fix: in network mode, others city/settlement placements wouldn't show up until a redraw
+		bug fix: ACTUALLY fixed the lose focus bug
+		bug fix: the last digit in a recent IP was lost if all were 3-digit numbers
+		bug fix: trade button was enabled in network mode after everyone responded
+0.8.9 - feature: graphics detail slider
+		feature: depth for roll chits
+		feature: 3D robber (wireframe or solid)
+		feature: textures on build pieces
+		feature: variant - equal dice roll odds
+		feature: variant - zero card trades
+		feature: variant - stock build adjustments
+		feature: variant - no 7's in first round
+		feature: variant - build/trade any order
+		feature: enable auto-trade in general settings
+		feature: variant settings are saved in .ini file
+		feature: more tooltips on stuff
+		bug fix: the chat window was losing focus on events
+		bug fix: clamped rotation so you can't see below the board ever
+		bug fix: minor fix in bank button tooltips
+0.8.8 - bug fix where wrong names would show up in chat room on reloads,
+		bug fix where client could save network games,
+		bug fix where cancelling a lose cards in non-network mode caused losing
+		cards to fail next time around,
+		added sounds,
+		added special trade bitmaps on build options,
+		added legend,
+		added stock remaining to player buttons,
+		modified hotseat cards showing,
+		redesigned network trading,
+		added bank trading,
+		redesigned bank button to show pictures, not amounts,
+		auto-reject trades after 15 seconds,
+		added total # of cards in-hand,
+		added remembering IP addresses for clients,
+		added a general options menu
+		added .ini file
+0.8.7 - bug fix where people were getting booted 15 seconds after joining,
+		bug fix where not all players were losing on a 7 that needed to,
+		bug fix where dev cards were disappearing,
+		added toolbar flash
+0.8.6 - added add player buttons before starting games,
+		--added internal ping mechanism to drop players after 30 seconds of no response,
+		added termination handling,
+		bug fix where there was no check to see if the game had started already in network mode,
+		made it so all res cards show for trading in network mode regardless of what is actually in opponent's hands,
+		added dice bitmaps to rolling,
+		fixed bug in auto-trading where dialog box came up unnecessarily,
+		removed Objective Grid completely,
+		switched to dynamic MFC link,
+		export of games sets player flags to not made here,
+		fixed bug where turn times were messed up after reloading a game,
+		fixed serious resource leaks (trading biggest culprit),
+		--disabled stats generator menu option to prevent confusion,
+		added undo of last built item to network mode,
+		fixed bug where network end of game time wasn't getting set
+		fixed bug where finished network games weren't being removed from the list,
+		fixed bug where trade offer stole focus from chat window,
+		fixed bug where ports weren't reloading from saved games,
+		fixed memory leak from undo data in network mode
+0.8.5 - moved bank array from GL to game, added save game/restore game to 
+		non-network play, removed restrictions on number of player in non-network
+		(Jared), added auto-save to network, added reload for network, fixed bug
+		where clients crashed when closing a network game, added better disconnection
+		messages on version mismatch and invalid player, capped zooming both close
+		and far (Jared), enabled chat control entry text to scroll
+0.8.4 - added system messages during network play, added dialog to control system 
+		messages, added network trading, added end of game handling, added turn time
+		handling, bug fix where lose 7 stats weren't being updated, added inability
+		to trade after building in network mode, added panning, switched to right-
+		mouse rotate/zoom, added version check at network startup, bug fix with
+		play DC button being enabled incorrectly
+0.8.3 - bug fix when closing the map database, bug fix when adding a game to the game
+		database, added ability to boot players from server, added chat control to
+		main game, disabled start game until a map is selected, added initial position
+		placements at game start, added build roads, cities, settlements, robber,
+		buying and playing dev cards, bug fix where stat playes where not in correct 
+		order (Clint Carpenter), bug fix where multiuse cards were not showing up 
+		(Clint Carpenter), bug fix where you could adjust player's cards in hotseat 
+		mode, added losing cards on 7, bug fix where selecting a player when they
+		weren't there in multiuse dialog caused crash, fixed bug with closing history
+		and stat windows and check marks
+0.8.2 - added map database, sent game data to view, reworked everything to run off of
+		maps
+0.8.1 - basic TCP/IP server/client support
+0.8.0 - redone sorting for all list controls, bug fixes for crashes on import/export of
+		games, bank is now hidden when completed games are loaded, tweaks of player
+		button drawing, added new adjustment feature when tracking, in
+		case counts get thrown off, fixed bug with menu check marks, fixed bug where 
+		build options weren't being updated	after buying a dev card, got rid of "expand"
+		animation when starting a new game
+0.7.9 - fixed bug in hotseat where card backs were showing up when a user had
+		to lose cards on a 7, redid loss of 0.7.8 changes suffered in catastrophic
+		Windows98 failure
+0.7.8 - completed hotseat capability by adding random card picker when stealing,
+		fixed a bug where building on a port tile but not having a port still gave
+		access to a port, added mousewheel support
+0.7.7 - fixed a bug with longest road algorithm, fixed a bug with cancelling 
+		losing cards on	a 7 roll, fixed a bug where you could do turn actions 
+		while placing a build option, added website address to message when version 
+		has expired, fixed bug where clicking on player buttons caused the 
+		information to disappear, added ability to change how player resources are
+		displayed, fixed bug where you could still do actions after the game had 
+		ended, fixed a bug where build options showed after loss of cards on a 7,
+		added hotseat option, with sweet random number generator, added 
+		multiplayer dev card functionality, added a tooltip to the dev card 
+		so the user knows what they have, added small text underneath longest 
+		road and largest army, name change to S3D
+0.7.6 - major GUI overhaul - no more turn dialog!, fixed a bug where road-building road 
+		caused a crash when undoing
+0.7.5 - fixed a major bug where 5/6 player games were starting as 3/4 player,
+		added minimum size to main window frame, fixed major bug where, in 
+		trade window, bank bitmaps did not appear, started work on control panel
+0.7.4 - added extended error reporting on ChoosePixelFormat failures, removed 
+		pointer calls from Settlers.cpp and gave it a global view variable,
+		moved resource bitmaps to res.tex--no more bitmaps in .exe!, new player
+		button with bitmaps for resources
+0.7.3 - removed dependency on class3gl.dll and msvcrtd.dll, no longer allowed 
+		direct access to player database in code--have to use method calls to change
+		anything, changed GLWnd to a CView, fixed two undo bugs: with an auto trade, used to be able to 
+		replace building after undoing auto trade; and undoing a trade did not
+		show/hide the build options, added quit message boxes on menu choices,
+		removed bank box on non-trading games
+0.7.2 - faster zoom (Adam Hunter), switched image loading to use IL library, 
+		fixed bug with missing textures on reload (wasn't deleting previous 
+		textures), bug fix (Jonathan Liu) where could drag back into player
+		selection box, bug fix where allowed cards in 5/6 player was 10, not 9,
+		added bank box where players are for debugging ability, bug fix where
+		losses to the robber were being subtracted from the bank
+0.7.1 - altered save files to include player structure, reworked corresponding
+		source code, added scan game database to import players, fixed 
+		annoying road placement lines, fixed a bug with sheep ports in 5/6 game,
+		added time limited version of build set to one week
+0.7.0 - bug fix when placing robber on empty tile (Maynard), added game export
+		and import from database, total redisign of game IO, new game database 
+		class
+
+0.6.9 - changed font from Verdana to Tahoma, added database menu options, 
+		changed open game to game database, added edit capability to player
+		database, added delete capability to the game database, bug fixes
+0.6.8 - open game dialog, including sorting by column header
+0.6.7 - auto-save of game to res\game.db, test-loading of completed game from 
+		res\game.db, fixed massive use of CPU in certain draw modes
+0.6.6 - dropped roads/cities down to level of hexes, added end of game
+		handling, added turn timing statistics
+0.6.5 - many stats related to trades
+0.6.4 - completed stats related to goods received/lost
+0.6.3 - several stats related to goods received/lost
+0.6.2 - added drag/drop trading to bank, auto show of trade dialog
+0.6.1 - added tracking of bank cards, redid roll undo structure
+0.6.0 - added losing of cards on a 7, with undo, other bug fixes
+
+0.5.9 - cleanup, massive testing for bugs, minor bug fixes
+0.5.8 - (almost) finished dev cards including trades
+0.5.7 - added Maynard's edges to the outside tiles
+0.5.6 - added trade to bank feature for auto trading on construction
+0.5.5 - continued implementing effects of trading, fixed dev cards so only one
+		can be played per turn
+0.5.4 - added main trade window
+0.5.3 - some cleanup, and a couple new stats
+0.5.2 - first rudiments of stats complete, with roll stats showing up
+0.5.1 - minor improvements to longest road, added menu checks for popup
+		windows, minor code cleanup
+0.5.0 - added longest road tracking
+
+0.4.9 - added largest army tracking
+0.4.8 - added rest of dev cards (no trades)
+0.4.7 - fixed robber undo, finished logic for undo window
+0.4.6 - new undo window (mostly finished)
+0.4.5 - added victory points and playing of soldier cards; undo does not work
+		properly for this yet; new idea for undo window
+0.4.4 - measured game pieces and conformed 3D models to scale, added ability
+		to buy development cards
+0.4.3 - added robber handling (no 3D model yet) and undo
+0.4.2 - another place city bug fix, added points tracking, fixed cancel bug
+		when Settlers3D creates the board
+0.4.1 - bug fixes: bad road undo, placing a city on another player's
+		settlement; added accidental game closure protection
+0.4.0 - added random board generation
+
+0.3.9 - added caps to the number of build items that can be built
+0.3.8 - added new settlement placement and undo
+0.3.7 - overhaul of road and city data storage, bug fix in adding roads near
+		sea tiles, selection of roads now usually works with a click directly
+		on the road as well as near it
+0.3.6 - fixed blocking bug on road placements, fixed player button crash,
+		added new city placement and undo
+0.3.5 - added new road placement and undo
+0.3.4 - made cities and settlements same width, massive cleanup of drawing
+		code
+0.3.3 - added cities, made bitmaps for all tiny windows
+0.3.2 - added placeholder for tracking trading on/off, added turn rolls
+		tracking, added double-click adds for players (Maynard suggestion)
+0.3.1 - fixed undo bugs, simplified GL modes greatly
+0.3.0 - added basic flow through turn (no actions yet) and undo for all,
+		which is still buggy, completed sweet dice roll mode
+
+0.2.9 - added roll handling for turns, drawing mode for displaying rolls
+0.2.8 - reorder bug fixes in dice rolls, added variables for player resources,
+		added resource counters to player buttons, started turn dialog
+0.2.7 - bug fixes in dice roll support, reordering of game flow at creation
+0.2.6 - bug fix for deleting players, moved all files to data directory,
+		added dice roll support to sorting players
+0.2.5 - added sorting of players into correct order - no dice roll support
+0.2.4 - finally added chip textures
+0.2.3 - improvements to player buttons, fixes to drag and drop interface,
+		wonderful suggestion from Maynes to add outlines to 3D objects
+0.2.2 - name change to Settlers3D, improvements to drag and drop interface
+0.2.1 - drag and drop interface for player selection at startup
+0.2.0 - added undo ability for starting player placement, fixed colors
+
+0.1.9 - cleaned up bugs in placement logic
+0.1.8 - added GL selection of starting roads
+0.1.7 - added GL selection of starting settlements
+0.1.6 - created skeletons for game data and player game data classes
+0.1.5 - completed first draft of revised new game dialog box
+0.1.4 - completed chip layout algorithm
+0.1.3 - cleanup, placeholders for roads and settlements selections,
+		chip texture placeholder, error message on failed texture read
+0.1.2 - added roll placement selection after a board has been laid out
+0.1.1 - added board layout for 5-6 player games, clickable resource buttons
+0.1.0 - completed OpenGL tile textures with click-to-add feature

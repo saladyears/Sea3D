@@ -1,0 +1,37 @@
+Maps3D version history
+
+0.2.0 - added random and hidden tiles to special tab
+0.1.9 - completed chit painting to land tiles in GL display
+0.1.8 - added chit cursors to app, removed seafarers borders from GL display
+0.1.7 - created chit bitmap .tex file and tab control
+0.1.6 - switched port tiles to seaports in GL display
+0.1.5 - added resource cursors
+0.1.4 - completed resource bitmap tabs and painting to map
+0.1.3 - created resource bitmap .tex files
+0.1.2 - created skeleton control panel and owner-draw tab control
+0.1.1 - created basic map to work on and got it to show up in GL window
+0.1.0 - created app framework, copied shared files from Sea3D, got GL window to
+		show up
+
+Incomplete:
+-undo/redo
+-keyboard shortcuts
+-context menus
+-click/drag to paint tiles
+-visual indicators of problem tiles
+-outlines around groups of tiles (like initial, secondary placements)
+-special tiles tab
+-tabs for special random, hidden, chitless tile/chit amounts
+-tile amounts dialog
+-chit amounts dialog
+-icons for map info, res, dev, special rules dialogs
+-map status report (will it work in Sea3D?)
+-draft/release mode for invalid/valid maps (separate database for unfinished?)
+-map information dialog (name, author, etc.)
+-res card amounts dialog
+-dev card amounts dialog
+-special rules dialog
+-map creation wizard
+-saving/loading from map database
+-control panel resize options
+-about box (rotating ? of fame, version info)

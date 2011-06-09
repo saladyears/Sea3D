@@ -1,0 +1,29 @@
+H1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 24px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    TEXT-DECORATION: underline
+}
+BODY
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+H2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+H3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}

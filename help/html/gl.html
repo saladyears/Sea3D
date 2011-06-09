@@ -1,0 +1,93 @@
+<HTML>
+<HEAD>
+<TITLE>Sea3D Main Help</TITLE>
+<link rel="stylesheet" type="text/css" href="help.css">
+</HEAD>
+<BODY>
+<H1>OpenGL Window</H1>
+<img src=graphics\gl.jpg>
+<P>
+If you are looking for information on the gameflow or the Control Panel, visit the <A HREF="gameplay.html">Control Panel and Gameflow</A> page.
+<P>
+If you are looking for information on the player and bank buttons, visit the
+<A HREF="playbank.html">Player and Bank buttons</A> page.
+<H2><B>Map Manipulation</B></H2>
+<P>
+One of the coolest parts to Sea3D doesn't appear in any menu.
+Once you've gotten to the point of displaying the map on the screen, you can manipulate the map using the keyboard or the mouse:
+<UL>
+<LI>
+Rotation: Use the arrow keys or hold down the right mouse button and drag the mouse.
+</LI>
+<LI>
+Zooming: Hold down Ctrl and use the up and down arrow keys, or hold down Ctrl and the right mouse button and drag the mouse up or down.   You can also use the mousewheel on your mouse to zoom.
+</LI>
+<LI>
+Panning: Hold down Shift and use the arrow keys, or hold down both mouse buttons and move the mouse around.
+</LI>
+<LI>
+Reset Camera: Right double-click the mouse button to return the camera to its default setting.
+</LI>
+</UL>
+<H2><B>File->Save (Ctrl+S)</B></H2>
+During hotseat games, you can save your game at any time.  In network games, only the server is allowed to save the game.  Once you save a game, it is stored in the incomplete game database and can be reloaded using the File->Open menu in the <A HREF="main.html">main Sea3D window</A>.
+<P>
+NOTE: Subsequent saves of a game wipe out older versions of that particular game.
+<P>
+NOTE: If a game is saved and reopened, nothing can be undone in the
+game before the point where it was saved.
+
+<H2><B>File->Close (Ctrl+F4)</B></H2>
+Another triumph of engineering!  Closing a game causes the game to close!  Sea3D gives you one last chance to make sure you really mean to quit the game, and if you say yes, all current game data is lost unless you have previously saved it.
+
+<H2><B>File->Save Camera Angle (Ctrl+A)</B></H2>
+If you have a favorite way of looking at the board, you can save it so that Sea3D automatically defaults to it.  Just rotate, zoom, and pan until you have the map just where you want it and then use this menu command or keyboard shortcut.  Sea3D will make your current settings the default.  From now on, when you open or start a game, or right double-click, the camera will be set to your stored settings.
+
+<H2><B>File->Clear Camera Angle (Ctrl+M)</B></H2>
+If you get tired of your default camera settings and want to clear them back to factory default, access this menu command or use the keyboard shortcut and Sea3D will restore the default camera angle to its original settings.
+
+<H2><B>File->Exit (Alt+F4)</B></H2>
+Pretty much the same thing as File->Close except it exits you from Sea3D completely.
+
+<H2><B>Edit->Undo (Ctrl+Z)</B></H2>
+Undoes the most recent action you took in the game.  In hotseat games, you can continue to undo changes until Sea3D returns the empty map at the start of the game.  That's incredible!  If the game was saved and then reopened later, Sea3D cannot continue to undo changes before the point where the game was saved.
+<p>
+In network games, you can undo your one most recent build placement and auto-trade or ship move, unless you have revealed a new tile or caused a roll chip to change places.  You cannot undo devolpment card purchases.
+
+<H2><B>Edit->Screenshot</B></H2>
+Allows you to take a snapshot of the OpenGL screen and save it to a .jpg or .bmp file of your choice.  Taunt your friends with your most recent annihilation of them!  Show them the final board position!  The possibilities are endless!
+
+<H2><B>Options->General</B></H2>
+Opens the <A HREF="genset.html">General Settings</A> window where you can change some basic features of Sea3D.
+
+<H2><B>Options->Open GL</B></H2>
+Opens the <A HREF="glset.html">OpenGL Settings</A> window so you can configure how Sea3D is displayed on your screen.
+
+<H2><B>Options->Player Display</B></H2>
+Opens the <A HREF="playdisp.html">Player Display </A> window which controls how the player and bank buttons on the left side of the screen are displayed.  
+
+<H2><B>Options->System Messages</B></H2>
+Only available in network games, this option opens the <A HREF = "sysmess.html">System Messages</A> window where you can tell Sea3D what messages you want to receive from the server during the game.
+
+<H2><B>Popups->Game History</B></H2>
+Opens and closes the <A HREF="history.html">Game History</A> window which shows every single aspect of the history of the game from inception up until now.  And I mean every aspect.
+
+<H2><B>Popups->Game Stats</B></H2>
+Opens and closes the <A HREF="stats.html">Game Statistics</A> window filled with, you guessed it, game statistics!
+
+<H2><B>Popups->Legend</B></H2>
+Opens and closes the <A HREF="legend.html">Legend</A> window that tells you a story about the Wild Wild West.  Heh, just kidding.  The legend window shows you how much it costs to build a road, city, ship, settlement, or development card.  For all you newbies out there.
+
+<H2><B>Popups->Map Information</B></H2>
+Opens and closes the <A HREF="mapinfo.html">Map Information</A> window that shows you what map your are playing if it is not obvious from the OpenGL representation in front of you.  It also reminds you of the variants that might be in effect if you happened to forget.
+
+<H2><B>View->Toolbar</B></H2>
+Shows or hides the OpenGL window toolbar, which has various self-explanatory shortcuts on it.  All the toolbar shortcuts correspond to menu options presented on this page.
+
+<H2><B>Help->Help (F1)</B></H2>
+Opens this help system.  You may press F1 in any screen to get help.
+
+<H2><B>Help->About</B></H2>
+Opens the <A HREF="about.html">About</A> window with the rotating cube of fame!
+</BODY>
+</HTML>

@@ -1,0 +1,5 @@
+S3D 1.0.0 known issues
+
+-pressing Enter in any of the popups does not uncheck the menu item
+-in Hotseat, you can put your mouse over others' dev cards and see what they are
+-in six player network mode, the sixth player doesn't get any trade offers

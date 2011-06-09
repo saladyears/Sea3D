@@ -1,0 +1,268 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Auto Generated" value="Yes">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variants Window">
+		<param name="Local" value="html/variants.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Allow trades for zero cards Button">
+			<param name="Local" value="html/variants.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Allow trading after building Button">
+			<param name="Local" value="html/variants.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Make all rolls equal odds Button">
+			<param name="Local" value="html/variants.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="No 7's in the first round Button">
+			<param name="Local" value="html/variants.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Connect to a network game Window">
+		<param name="Local" value="html/connect.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Gameplay Window">
+		<param name="Local" value="html/gameplay.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Rolling the dice">
+			<param name="Local" value="html/gameplay.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Special outcomes due to roll">
+			<param name="Local" value="html/gameplay.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Current player's turn">
+			<param name="Local" value="html/gameplay.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Trade Button (short cut of Control T)">
+				<param name="Local" value="html/gameplay.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bank Button (short cut of Control B)">
+				<param name="Local" value="html/gameplay.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Play Card Button (short cut of Control P)">
+				<param name="Local" value="html/gameplay.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="End Turn Button (short cut of Control E)">
+				<param name="Local" value="html/gameplay.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Current player builds">
+			<param name="Local" value="html/gameplay.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Miscellaneous">
+			<param name="Local" value="html/gameplay.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Finishing the turn">
+			<param name="Local" value="html/gameplay.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="What do you want to do? Window">
+		<param name="Local" value="html/gametype.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Track a board game Button">
+			<param name="Local" value="html/gametype.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Play a hotseat S3D game Button">
+			<param name="Local" value="html/gametype.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Play a network S3D game Button">
+			<param name="Local" value="html/gametype.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Play a S3D game by email Button">
+			<param name="Local" value="html/gametype.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Host a network game Window">
+		<param name="Local" value="html/host.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Advanced Button">
+			<param name="Local" value="html/host.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Boot player Button">
+			<param name="Local" value="html/host.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Select map Button">
+			<param name="Local" value="html/host.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Variant Button">
+			<param name="Local" value="html/host.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Chat Window and Send Button">
+			<param name="Local" value="html/host.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Start game! Button">
+			<param name="Local" value="html/host.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Welcome to the S3D Help System">
+		<param name="Local" value="html/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="What would you like to do?">
+			<param name="Local" value="html/index.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Select a map to play Window">
+		<param name="Local" value="html/mapsel.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Network Port Window">
+		<param name="Local" value="html/netport.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Choose your player and connect option Window">
+		<param name="Local" value="html/network.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Host the network game Button">
+			<param name="Local" value="html/network.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Connect to the network game Button">
+			<param name="Local" value="html/network.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Player selection Button">
+			<param name="Local" value="html/network.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Game Options Window">
+		<param name="Local" value="html/options.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Have S3D generate a game board Check Box">
+			<param name="Local" value="html/options.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Keep track of trades Check Box">
+			<param name="Local" value="html/options.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Select the players in your game Window">
+		<param name="Local" value="html/playsel.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Add player Button">
+			<param name="Local" value="html/playsel.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Variants Button">
+			<param name="Local" value="html/playsel.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sort the players into the playing order Window">
+		<param name="Local" value="html/playsort.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Starting position selection Window">
+		<param name="Local" value="html/startsel.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Chat Window">
+		<param name="Local" value="html/chat.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="S3D Main Window">
+		<param name="Local" value="html/main.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File-&amp;gt;New">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File-&amp;gt;Open">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File-&amp;gt;Take Tour">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File-&amp;gt;Exit">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Databases-&amp;gt;Players">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Databases-&amp;gt;Game">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Databases-&amp;gt;Maps">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Options-&amp;gt;General">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="View-&amp;gt;Toolbar">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Help-&amp;gt;Help">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Help-&amp;gt;About">
+			<param name="Local" value="html/main.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Unique features of S3D">
+		<param name="Local" value="html/features.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>

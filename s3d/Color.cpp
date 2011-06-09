@@ -1,0 +1,119 @@
+/*
+ *  Settlers3D - Copyright (C) 2001-2003 Jason Fugate (jfugate@settlers3d.net)
+ * 
+ *  This program is free software; you can redistribute it and/or modify it 
+ *  under the terms of the GNU General Public License as published by the Free 
+ *  Software Foundation; either version 2 of the License, or (at your option) 
+ *  any later version.
+ * 
+ *  This program is distributed in the hope that it will be useful, but 
+ *  WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+ *  or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+ *  for more details.
+ */
+
+#include "stdafx.h"
+#include "Settlers.h"
+#include "Color.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_SERIAL(CColor, CObject, 1)
+
+//////////////////////////////////////////////////////////////////////
+// constructor
+//////////////////////////////////////////////////////////////////////
+CColor::CColor()
+{
+
+}
+
+//////////////////////////////////////////////////////////////////////
+// copy constructor
+//////////////////////////////////////////////////////////////////////
+CColor::CColor(const CColor &data)
+{
+	copy(data);
+}
+
+//////////////////////////////////////////////////////////////////////
+// destructor
+//////////////////////////////////////////////////////////////////////
+CColor::~CColor()
+{
+
+}
+
+//////////////////////////////////////////////////////////////////////
+// assignment operator
+//////////////////////////////////////////////////////////////////////
+CColor &CColor::operator =(const CColor &data)
+{
+	copy(data);
+
+	return *this;
+}
+
+//////////////////////////////////////////////////////////////////////
+// streamline copy function
+//////////////////////////////////////////////////////////////////////
+void CColor::copy(const CColor &data)
+{
+	//color name
+	m_strName		= data.m_strName;
+
+	//text color
+	m_crText		= data.m_crText;
+
+	//draw color
+	m_crDraw		= data.m_crDraw;
+}
+
+//////////////////////////////////////////////////////////////////////
+// save or load this puppy
+//////////////////////////////////////////////////////////////////////
+void CColor::Serialize(CArchive &ar)
+{
+	//save information
+	if(ar.IsStoring()){
+		save(ar);
+	}
+	//load information
+	else{
+		load(ar);
+	}
+}
+
+//////////////////////////////////////////////////////////////////////
+// load data
+//////////////////////////////////////////////////////////////////////
+void CColor::load(CArchive &ar)
+{
+	//color name
+	ar >> m_strName;
+
+	//text color
+	ar >> m_crText;
+
+	//draw color
+	ar >> m_crDraw;
+}
+
+//////////////////////////////////////////////////////////////////////
+// save data
+//////////////////////////////////////////////////////////////////////
+void CColor::save(CArchive &ar)
+{
+	//color name
+	ar << m_strName;
+
+	//text color
+	ar << m_crText;
+
+	//draw color
+	ar << m_crDraw;
+}

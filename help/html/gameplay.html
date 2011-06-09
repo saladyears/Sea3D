@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<TITLE>Control Panel Help</TITLE>
+<link rel="stylesheet" type="text/css" href="help.css">
+</HEAD>
+<BODY>
+<H1>Control Panel and Game Play</H1>
+<img src=graphics\gameplay.jpg>
+<P>
+The message window in the upper right is always displayed and tells you what's happening in the game.  The Control Panel with the 4 action buttons appears whenever there's a map on the screen and it is your turn.  The roll button and information always appears when it is time to roll or right after, showing you what goods were gained on the roll.
+<H2>Rolling the dice</H2>
+Each turn of the game starts with a roll of the dice.  When it is your turn, the
+message box at the top of the Control Panel displays your name and says "Click to roll" to start the turn. Click the white box or press Ctrl+R to roll the dice.  The result of the dice roll is displayed as well a list of players who collected resources on the roll and the amounts they received.  The map also highlights the specific tiles with the roll so you can easily see who received goods.  To continue after rolling the dice, click the same box again or press the spacebar.
+<H2>Special outcomes due to roll</H2>
+If you roll a 7, the hex currently occupied by the robber is grayed, and the message box tells you to "Chose a location for the robber".  You must select a new location for the robber by clicking on any tile in the map.  If you select a tile bordered by another player (or players), you get to steal a card from them using the <A HREF="steal.html">Steal a card from a player</A> window.
+<P>  
+If you roll a 7 and any player has too many cards, the
+<A HREF="lose7.html">Lose cards because of a 7</A> window appears to allow players to discard cards of their choice.
+<H2>Turn Actions</H2>
+Once rolling and related actions have been completed, you are allowed to trade and do other turn actions.  Any of the
+four buttons in the Control Panel may be highlighted depending on what you have the resources to do:
+<BLOCKQUOTE>
+<H3><B>Play Card (Ctrl+P)</B></H3>
+Players can unleash their development cards by clicking the Play
+Card button which brings up the <A HREF="playcard.html">Play a Development Card</A> window.
+
+<H3><B>Trade (Ctrl+T)</B></H3>
+Clicking the Trade button brings up a window that allows you to trade with others (amazing, isn't it?).
+<P>
+If you are in hotseat mode, the <A HREF="trade.html">Trade</A> window will appear.
+<P>
+If you are network mode, the <A HREF="nettrade.html">Network Trade</A> window will appear.  If you are on the receiving end of a trade offer in network mode, the <A HREF="tradeoffer.html">Trade Offer</A> window will appear when someone offers you a trade.
+
+<H3><B>Bank (Ctrl+B)</B></H3>
+If you have enough of any one resource and want to manually trade with the bank, then you can click the Bank
+button to bring up the <A HREF="tradebank.html">Trade with the bank</A> window.
+
+<H3><B>End Turn (Ctrl+E)</B></H3>
+Clicking on this button ends your turn.  No
+more trading or building can occur, and the dice can be rolled
+by the next player.
+
+</BLOCKQUOTE>
+<H2>Build Options</H2>
+<img src= "graphics\buildopts.jpg">
+<P>
+Throughout the current player's turn, icons are displayed above
+the map showing what the player can build.  If auto-trading has been enabled in Options->General menu, then trading to the bank can be done automatically by clicking on any of the icons above the map with yellow arrows next to the build item (settlement, city, road, or development card).
+The arrows on the icon indicate that the trade will be done automatically for the player, since they can't build the item with what they have now.  The number of yellow arrows indicates the number of trades to the bank required.  If the player has enough resources to build the item without trading, then there will be no yellow arrows on the build icon.  If the auto-trade is ambiguous, then the player will be prompted to specify which resource he or she is trading with the bank before building.
+<P>
+In Seafarers games, if the player has any ships that can be moved, the move ship icon will appear as well (as shown in this picture).
+<p>
+Once an icon for building a settlement, road, or ship has been clicked,
+placing the build item is done exactly the same way as
+in the beginning of the game.  When building a city, the player
+must click on the city icon and then click on one of his or  settlements.
+The settlement is then replaced with a city.  Moving a ship involves selecting a ship to move and placing it down again just as if building a new ship.
+<H2>Miscellaneous</H2>
+If the Allow trades after building variant is being played,
+then the current player will still be able to trade after building.
+<P>
+At any time during a turn, the current player can click on the Play Card button to play a Development card.  In the case of a soldier or victory point card, the player can even click on the Play Card button before rolling the dice.
+<P>
+At any time during play in hotseat and tracking games, the blue arrow in the upper right of the message box can be clicked to undo (just like Edit->Undo) whatever has most recently happened.  In network games, undo is only enabled for the last build item placed (road, city or settlement), or for a manual trade with the bank.
+<H2>Finishing the turn</H2>
+After all building is done, all trades have been completed and
+the player has played whatever Development cards they want
+to, clicking on the End Turn button in the message box finishes
+the current player's turn and it goes to the next person to roll.
+</BODY>
+</HTML>
